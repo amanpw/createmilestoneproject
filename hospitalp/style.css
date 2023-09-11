@@ -1,0 +1,487 @@
+.secation-1{
+     min-height: 100;
+    background-image: url(media/background.png);
+    background-size: cover;
+    
+}
+.navbar{
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    right: 50px;
+    left: 50px;
+    box-shadow: 0px 0px  blue;
+}
+.text-bar>h1{
+    font-size: 25px;
+    color: white;
+}
+.home-bar{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    
+}
+.home-bar a{
+    
+    text-decoration: none;
+    color: rgb(226, 219, 219);
+   
+   
+}
+.home-bar a:hover{
+    color: black;
+}
+.button{
+    background-color: cornflowerblue;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    align-items: center;
+    color: white;
+}
+.home-bar-icone{
+    display: none;
+}
+@media screen and (max-width:750px) {
+    .home-bar-icone{
+        display: flex;
+        color: black;
+        font-size: 30px;
+    }
+    .home-bar{
+        display: none;
+    }
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        padding-left: 30px;
+        padding-right: 30px;
+        color: white;
+        gap: 20%;
+         justify-content: center;
+         align-items: center;
+        
+    }
+    .left{
+        margin-top: 50px;
+    }
+    .hospital-case{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+       justify-content: center;
+       margin: auto;
+      
+    
+    }.firest{
+        margin: auto;
+    }
+     .star-1{
+       margin: auto;
+     }
+     .star-start{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+     }
+}
+.main-container{
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+   align-items: center;
+    gap: 20%;
+    
+}
+.button-1{
+    padding: 10px;
+    background-color: cornflowerblue;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+.ragister-bar{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: white;
+    color: black;
+    padding: 30px;
+   margin-top: 100px;
+   margin-bottom: 100px;
+   border-radius: 20px;
+   
+}
+
+.ragister-bar input{
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+.ragister-bar h1{
+    text-align: center;
+}
+
+      
+.left .button-bar{
+    display: flex;
+    gap: 20px;
+}
+.button-bar .get{
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 30px;
+     align-self: center;
+     cursor: pointer;
+}.button-bar .get:hover{
+    background-color: cornflowerblue;
+}
+.button-bar .more{
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 30px;
+     align-self: center;
+     cursor: pointer;
+}
+.button-bar .more:hover{
+    background-color: cornflowerblue;
+}
+.left h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.hospital-case{
+    display: flex;
+    gap: 20px;
+   justify-content: center;
+
+}
+.leading{
+    text-align: center;
+}
+.firest{
+    width: 350px;
+   
+    
+}
+.Emergency{
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   padding: 25px;
+    gap: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+   
+}
+.Emergency i{
+    background-color: white;
+    border-radius: 50%;
+    padding: 30px;
+    color: rgba(10, 207, 207, 0.637);
+}
+.text-p{
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   
+    padding: 30px;
+    border: 1px solid rgb(151, 148, 148);
+   font-size: 20px;
+   color: rgb(107, 102, 102);
+      
+}
+li{
+   margin: 4px;
+}
+li a{
+    text-decoration: none;
+}
+ul{
+   list-style: none;
+ 
+}
+.leading h1{
+    font-size: 40px;
+}
+.leading p{
+    font-size: 18px;
+    color: rgb(163, 159, 159);
+}
+.secation-4{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.goal p{
+    color: rgb(192, 183, 183);
+}
+.star-start{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.star-1{
+    width: 230px;
+    padding: 50px;
+    border: 1px solid rgb(211, 204, 204);
+}
+.goal .aman{
+    font-size: 20px;
+}
+.star-1 .rating{
+    color: gold;
+}
+.FAQ-1{
+    display: flex;
+   
+    width: 350px;
+    gap: 10px;
+}
+.FAQ{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.FAQ-1 .hp{
+  align-self: flex-start;
+}
+.FAQ-ALL{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    grid-row-gap: 30px;
+    grid-column-gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.FAQ-1 i{
+    font-size: 25px;
+    color: rgba(6, 253, 253, 0.719);
+    padding-top: 20px;
+    
+}
+.hp h2{
+    color: rgb(97, 96, 96);
+}
+.hp p{
+    color: rgb(185, 184, 184);
+}
+@media screen and (max-width:750px) {
+    .FAQ-ALL{
+       grid-template-columns: 1fr;
+       grid-template-rows: auto auto auto auto auto auto ;
+       align-items: center;
+       justify-content: center;
+        grid-gap: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        
+    }
+    .FAQ-1{
+        margin: auto;
+    }
+    .Praicing{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    .secation-8i{
+        flex-direction: column;
+        margin-left: 20px;
+        gap: 20px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .subscribe{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: none;
+        background-color: rgb(3, 22, 37);
+       
+    }
+    .input-sub{
+        
+    }
+}
+.Praicing{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.free{
+    border: 2px solid aqua;
+    width: 300px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.Features{
+    display: flex;
+    align-items: center;
+    gap: 30px;   
+}
+.Features h2{
+    font-size: 17px;
+}
+.Features i{
+    font-size: 25px;
+    color: green;
+}
+.Features .aman{
+    color: rgb(99, 97, 97);
+}
+.button-price{
+   border-radius: 10px;
+    background-color: cornflowerblue;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.dolar{
+     color: aqua;
+     display: flex;
+     gap: 10px;
+     justify-content: center;
+     
+}
+.across p{
+   padding-left: 50px;
+   padding-right: 50px;
+}
+.standard{
+    background-color: black;
+    color: white;
+   position: relative;
+   transform: scalex(1.5 1.5);
+   animation: move 2s ease-in 1s infinite alternate-reverse ;
+   
+}
+@keyframes move {
+    from{
+       scale: 0.9;
+    }
+    to{
+        scale: 1.1;
+    }
+}
+.spane{
+    display: flex;
+    flex-direction: column;
+    gap: none;
+    align-items: flex-start;
+    color: aqua;
+   
+}
+.spane .dolar-1{
+   margin: 0px;
+   font-size: 20px;
+  color: aqua;
+}
+.spane .month{
+    margin: 0px;
+    font-size: 15px;
+    color: rgb(158, 226, 226);
+}
+ 
+.zero{
+   font-weight: bold;
+   font-size: 40px;
+
+}
+.free h1{
+    font-weight: bold;
+}
+.free p{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(87, 84, 84);
+}
+
+
+.subscribe{
+    display: flex;
+    align-items: center;
+    height: auto;
+    justify-content: space-around;
+    background-color: rgb(3, 22, 37);
+   padding: 50px;
+}
+
+
+.input-sub{
+    background-color: white;
+    display: flex;
+}
+.input-sub .submit{
+   background-color: cornflowerblue;
+   padding: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+ 
+   color: white;
+}
+.input-sub input{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    outline: none;
+   
+}
+.input-sub{
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.text-sub p{
+    margin: 0px;
+}
+.text-sub h1{
+     font-size: 40px;
+     color: white;
+}
+.text-sub p{
+    font-size: 20px;
+    color: rgb(167, 152, 152);
+}
+.secation-8i{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.secation-8 .made{
+    text-align: center;
+}
+.insta-icon{
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+    color: cornflowerblue;
+}
+
